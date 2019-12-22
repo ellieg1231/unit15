@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url(technology.jpg) ;
+  }
+
+.logocontainer{
+    width:100%;
+    height:170px;
+    background-color:whitesmoke;
+}
+
+.logo{
+    width: 200px;
+    height: 170px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: #333;
+    display:table;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 250px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height:50px;
+    box-shadow: #bbb 2px 2px 2px;
+  }
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    text-shadow: rgb(156, 156, 156) 1px 1px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  .contact{
+      height:470px;
+      width:50%;
+      background-color:rgb(185, 218, 245);
+      display:block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top:35px;
+      box-shadow:2px 2px gray;
+  }
+    h1{
+        text-align:center;
+        color:rgb(13, 83, 173);
+        margin-top:50px;
+}
+
+  #lastName{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:20px;
+    width:300px;
+    height:30px;
+    box-shadow:1px 1px gray;
+  }
+
+  #firstName{
+    display:block;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top:-25px; 
+    width:300px;
+    height:30px;
+    box-shadow:1px 1px gray;
+  }
+
+  #question{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width:300px;
+    height:150px;
+    box-shadow:1px 1px gray;
+  }
+
+  #email{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-top:20px;
+    width:300px;
+    height:30px;
+    box-shadow:1px 1px gray;
+  }
+
+p{
+    text-align: center;
+    margin-top:20px;
+}
+
+button{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-top:-20px;
+    width:100px;
+    height:30px;
+}

@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logocontainer{
+    width:100%;
+    height:170px;
+    background-color:whitesmoke;
+}
+
+.logo{
+    width: 200px;
+    height: 170px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: #333;
+    display:table;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 250px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height:50px;
+    box-shadow: #bbb 2px 2px 2px;
+  }
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+    text-shadow: rgb(156, 156, 156) 1px 1px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  .welcome{
+    width:100%;
+    height: 600px;
+    background-color:black;
+    position:fixed;
+    background-image: url(surf.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+  
+  h1{
+    display:block;
+    margin-top: 150px;
+    background-color: white;
+    color: black;
+    font-size: 50px; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+    }  
+  }
+
+  h2{
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: rgb(156, 156, 156) 5px 5px 5px;
+    display:block;
+    text-align:center;
+    margin-top:50px;
+
+

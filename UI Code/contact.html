@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Web Design</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+
+    <div class="logocontainer"> <img src="logo.jpg" class="logo">
+    </div>
+    
+    <div class="navbarcontainer">
+    <div class="navbar">
+            <ul>
+              <li><a href="file:///C:/Users/Podge/Desktop/Ellie/UI%20Code/homepage.html">Home</a></li>
+              <li><a href= "file:///C:/Users/Podge/Desktop/Ellie/UI%20Code/tool.html">Tools & Process</a></li>
+              <li><a href="file:///C:/Users/Podge/Desktop/Ellie/UI%20Code/application.html">The Application of Web Technologies</a></li>
+              <li><a href="file:///C:/Users/Podge/Desktop/Ellie/UI%20Code/designprinciples.html">The Design Principles</a></li>
+              <li><a href="#about">Contact us</a></li>
+            </ul>
+    </div>
+    
+    <div class="contact">
+    <script src="lib/script.js"></script>
+    <h1>Contact Form</h1>
+    <form onsubmit="return false">
+    </form>
+    <input type="text" placeholder="Enter your last name" id="lastName" />
+    <br><br>
+    <input type="text" placeholder="Enter your first name" id="firstName" />
+    <input type="email" placeholder="Enter your email" id="email" />
+    <p>What is your question?</p>
+    <br>
+    <textarea id="question" rows="4"></textarea>
+    <br><br>
+    <button onclick="sendContact();">Send contact</button>
+    </div>
+
+        
